@@ -208,12 +208,16 @@ article {
 
 .lateral {
     height: 100%;
-    background-color: blue;
+    background-color: violet;
     padding: 5% 0% 5% 5%;
     float: left;
     grid-column: 1/4;
+    width: calc(20em + 1vw);
 }
-.twitter-timeline{
+.lateral a{
+    height: 100%;
+}
+.lateral script{
     height: 100%;
 }
 
