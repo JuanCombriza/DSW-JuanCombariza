@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.encabezado {
+    display: flex;
+    background-color: beige;
+    z-index: 1;
+    font-size: 120%;
+    width: 100%;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgencab {
+    width: 25%;
+    filter: brightness(0);
+}
+
+.imgencab:hover {
+    filter: brightness();
+}
+
+/* ********************** INICIO DE MENU ***********************/
+.menu {
+    top: 15.7%;
+    position: relative;
+    width: 100%;
+    font-size: 120%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>li {
+
+    background-color: black;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.menu li a {
+    padding: 4%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: rgb(68, 66, 66);
+}
+
+.menu li ul {
+    width: 20%;
+    background-color: white;
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+.menu li ul a {
+    padding: 2%;
+    color: black;
+}
+
+.menu li:hover>ul {
+    display: block;
+    background-color: white;
+}
+
+.menu li ul li {
+    position: relative;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+/* ********************** FIN DE MENU ***********************/
+
+.presentacion {
+    position: static;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    top: 0;
+    color: rgb(255, 255, 255);
+    padding: 6% 6% 6% 12%;
+    grid-column: 1/5;
+    font-size: 200%;
+}
+
+
+.Articulos {
+    background: linear-gradient(rgb(0, 0, 0),rgba(33, 20, 216, 0.116),rgb(0, 0, 0));
+    height: 100%;
+}
+
+
+
+
+.Articulo1 {
+    padding: 5% 10% 5% 10%;
+    color: white;
+}
+    
+.imgp3{
+    padding-top: 10%;
+}
+
+
+
+.salto{
+    justify-content: space-around;
+    display: flex;
+    color: rgb(3, 3, 29);
+    font-size: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.salto a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.salto a:hover{
+    text-decoration: none;
+    color: rgb(0, 152, 163);
+}
+
+
+.principal{
+    background-image: url("../../Fase3/img/html2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pie {
+    position: static;
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    display: block;
+    background-color: white;
+    color: black;
+}

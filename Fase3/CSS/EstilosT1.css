@@ -1,0 +1,191 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.encabezado {
+    display: flex;
+    background-color: beige;
+    z-index: 1;
+    font-size: 120%;
+    width: 100%;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgencab {
+    width: 25%;
+    filter: brightness(0);
+}
+
+.imgencab:hover {
+    filter: brightness();
+}
+
+/* ********************** INICIO DE MENU ***********************/
+.menu {
+    top: 15.7%;
+    position: relative;
+    width: 100%;
+    font-size: 120%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>li {
+
+    background-color: black;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.menu li a {
+    padding: 4%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: rgb(68, 66, 66);
+}
+
+.menu li ul {
+    width: 20%;
+    background-color: white;
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+.menu li ul a {
+    padding: 2%;
+    color: black;
+}
+
+.menu li:hover>ul {
+    display: block;
+    background-color: white;
+}
+
+.menu li ul li {
+    position: relative;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+/* ********************** FIN DE MENU ***********************/
+
+.presentacion {
+    position: static;
+    background: linear-gradient(80deg, rgb(0, 0, 0) 39%, rgba(0, 225, 255, 0));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    top: 0;
+    color: rgb(255, 255, 255);
+    padding: 6% 60% 6% 12%;
+    grid-column: 1/5;
+    font-size: 150%;
+}
+
+
+.Articulos {
+    height: 100%;
+    background-color: rgba(230, 230, 230, 0.938);
+    display: grid;
+}
+
+
+
+
+.Articulo1 {
+    padding: 5% 10% 5% 10%;
+    font-size: 120%;
+    position: static;
+    width: 100%;
+    display: block;
+    color: black;
+}
+    
+
+
+
+
+
+.ip3 {
+    position: static;
+    padding-bottom: 5%;
+    font-size: 70%;
+    text-align: right;
+}
+
+.imgp3 {
+    padding: 5%;
+    padding-bottom: 0;
+}
+.etiqs {
+    padding: 1% 7% 0% 7%;
+}
+/*Bibliografia*/
+.p3 {
+    padding: 3%;
+    font-size: 85%;
+    text-align: right;
+    background: linear-gradient(120deg, rgba(0, 21, 80, 0.315), rgba(0, 8, 24, 0.863) 60%);
+    color: white;
+}
+.artp3 a{
+    color:aqua
+}
+.artp3 h2{
+    font-size: 250%;
+}
+
+.salto{
+    justify-content: space-around;
+    display: flex;
+    color: rgb(3, 3, 29);
+    font-size: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.salto a{
+    text-decoration: none;
+    color: rgb(2, 0, 19);
+}
+.salto a:hover{
+    text-decoration: none;
+    color: rgb(0, 152, 163);
+}
+
+
+.Fondo1{
+    background-image: url("../../Fase3/img/html2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.principal{
+    background-image: url("../../Fase3/img/html1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pie {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    display: block;
+    background-color: white;
+    color: black;
+}

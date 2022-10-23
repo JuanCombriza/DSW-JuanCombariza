@@ -1,0 +1,268 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.encabezado {
+    display: flex;
+    background-color: beige;
+    z-index: 1;
+    font-size: 120%;
+    width: 100%;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgencab {
+    width: 25%;
+    filter: brightness(0);
+}
+
+.imgencab:hover {
+    filter: brightness();
+}
+
+
+/* ********************** INICIO DE MENU ***********************/
+.menu {
+    top: 15.7%;
+    position: relative;
+    width: 100%;
+    font-size: 120%;
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>li {
+
+    background-color: black;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.menu li a {
+    padding: 4%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: rgb(68, 66, 66);
+}
+
+.menu li ul {
+    width: 20%;
+    background-color: white;
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+.menu li ul a {
+    padding: 2%;
+    color: black;
+}
+
+.menu li:hover>ul {
+    display: block;
+    background-color: white;
+}
+
+.menu li ul li {
+    position: relative;
+}
+
+nav {
+    top: 0;
+    z-index: 2;
+    position: sticky;
+}
+
+/* ********************** FIN DE MENU ***********************/
+
+.fondopre{
+    background-image: url("../../Fase3/img/html2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.presentacion {
+    position: static;
+    /*background-size: 100%;*/
+    background: linear-gradient(80deg, rgb(0, 0, 0) 39%, rgba(0, 225, 255, 0));
+    /*background-image:linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 81, 255, 0.137));
+    background-color: rgba(0, 0, 0, 0.33);*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    top: 0;
+    color: white;
+    padding: 18% 60% 18% 12%;
+    grid-column: 1/11;
+    font-size: 120%;
+}
+
+
+
+
+.principal {
+    height: 100%;
+    background-color: white;
+    position: static;
+    display: grid;
+}
+
+.Articulos {
+    height: 100%;
+    display: grid;
+    grid-column: 4/11;
+    float: left;
+    justify-content: space-around;
+}
+
+.Tittemas {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 150%;
+    display: grid;
+    grid-column: 4/11;
+    float: left;
+    align-items: center;
+    justify-content: space-around;
+}
+.urlt1{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+.Articulo1 {
+    margin-bottom: 20%;
+    position: static;
+    margin-left: 10%;
+    width: 80%;
+    grid-column: 4/7;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: calc(1em + 1vw);
+}
+.urlt2{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+.Articulo2 {
+    margin-bottom: 20%;
+    position: static;
+    margin-left: 8%;
+    width: 80%;
+    grid-column: 8/11;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: calc(1em + 1vw);
+}
+
+.Articulos article:hover {
+    z-index: 1;
+    scale: 105%;
+    background-color: rgb(43, 41, 41);
+}
+
+
+.imgart {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 120px;
+    background-color: black;
+}
+
+.Titart1 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.Titart2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+article {
+    padding: 10px;
+    display: inline-block;
+    color: antiquewhite;
+}
+
+.lateral {
+    height: 100%;
+    background-color: white;
+    padding: 5% 0% 5% 5%;
+    float: left;
+    grid-column: 1/4;
+}
+
+.fondop3{
+    background-image: url("../../Fase3/img/html1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.p3 {
+    height: 40em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: static;
+    display: grid;
+    background: linear-gradient(160deg, rgba(187, 58, 58, 0), rgba(0, 8, 24, 0.918) 60%);
+    grid-column: 1/5;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.ip3 {
+    height: 50%;
+    align-content: flex-end;
+    position: static;
+    padding: 0;
+    grid-column: 1/3;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.imgp3 {
+    background-size: cover;
+    position: static;
+}
+
+.artp3 {
+    font-size: 120%;
+    padding-right: 40%;
+    display: block;
+    grid-column: 3/5;
+}
+.artp3 a{
+    color:aqua
+}
+
+
+
+.pie {
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: white;
+    color: black;
+}
