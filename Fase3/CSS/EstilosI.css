@@ -213,6 +213,9 @@ article {
     float: left;
     grid-column: 1/4;
 }
+.twitter-timeline{
+    height: 100%;
+}
 
 .fondop3{
     background-image: url("../../Fase3/img/html1.jpg");
