@@ -22,7 +22,7 @@
 }
 
 .imgencab:hover {
-    filter: brightness();
+    filter: brightness(100);
 }
 
 
@@ -177,7 +177,6 @@ nav {
 
 .Articulos article:hover {
     z-index: 1;
-    scale: 105%;
     background-color: rgb(43, 41, 41);
 }
 
